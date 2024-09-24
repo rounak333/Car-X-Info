@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
 import NewcarModal from '../Components/NewcarModal';
 import NewCarDetails from '../Components/NewCarDetails';
 import AOS from 'aos';
@@ -30,12 +29,6 @@ const Newcars = () => {
       >
         <div className="absolute inset-0 bg-opacity-60 flex items-center justify-center text-center p-6">
           <div className="text-white space-y-6" data-aos="zoom-in">
-            <NavLink to="/">
-              <button className="font-bold text-gray-200 underline hover:text-blue-300 transition duration-300" data-aos="fade-down">
-                Home
-              </button>
-            </NavLink>
-            <span className="text-2xl text-gray-400">/</span>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold uppercase" data-aos="fade-right">
               Discover Your Next Car
             </h1>
