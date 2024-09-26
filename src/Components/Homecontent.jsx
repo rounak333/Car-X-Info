@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
+import NavLink from
 
 const HomeContent = () => {
   useEffect(() => {
@@ -20,9 +21,9 @@ const HomeContent = () => {
               Revolutionize your journey with the latest in automotive technology, performance, and sustainability. Whether new or pre-owned, find your dream car today.
             </p>
             <div className="mt-10">
-              <a href="/carsforsale" className="bg-gradient-to-r from-blue-500 to-green-400 px-6 py-3 rounded-full font-semibold uppercase text-lg hover:scale-110 transition transform duration-300" data-aos="fade-up">
+              <NavLink to="/carsforsale" className="bg-gradient-to-r from-blue-500 to-green-400 px-6 py-3 rounded-full font-semibold uppercase text-lg hover:scale-110 transition transform duration-300" data-aos="fade-up">
                 Discover Cars
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
